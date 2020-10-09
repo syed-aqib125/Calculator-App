@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULATOR WEB APPLICATION</h1>
+    <table bgcolor="gray">
+        <tr>
+        <td bgcolor="whitesmoke" colspan="4"><input type="text" name="" id="result" class="result"></td>
+    </tr>
+    <tr>
+        <td bgcolor="whitesmoke" colspan="2"><button class="clearBtn" onclick="clearResult()">C</button></td>
+        <td bgcolor="whitesmoke" colspan="2"><button class="clearBtn" onclick="back()"><b>⌫</b></button></td>
+    </tr>
+
+    <tr>
+        <td bgcolor="whitesmoke"><button class="btn" onclick="getNumber('7')">7</button></td>
+        <td bgcolor="whitesmoke"><button class="btn" onclick="getNumber('8')">8</button></td>
+        <td bgcolor="whitesmoke"><button class="btn" onclick="getNumber('9')">9</button></td>
+        <td bgcolor="whitesmoke"><button class="btn" onclick="getNumber('*')">x</button></td>
+    </tr>
+    <tr>
+        <td bgcolor="whitesmoke"><button class="btn" onclick="getNumber('4')">4</button></td>
+        <td bgcolor="whitesmoke"><button class="btn" onclick="getNumber('5')">5</button></td>
+        <td bgcolor="whitesmoke"><button class="btn" onclick="getNumber('6')">6</button></td>
+        <td bgcolor="whitesmoke"><button class="btn" onclick="getNumber('-')">-</button></td>
+    </tr>
+    <tr>
+        <td bgcolor="whitesmoke"><button class="btn" onclick="getNumber('1')">1</button></td>
+        <td bgcolor="whitesmoke"><button class="btn" onclick="getNumber('2')">2</button></td>
+        <td bgcolor="whitesmoke"><button class="btn" onclick="getNumber('3')">3</button></td>
+        <td bgcolor="whitesmoke"><button class="btn" onclick="getNumber('+')">+</button></td>
+    </tr>
+    <tr>
+        <td bgcolor="whitesmoke" colspan="2"><button class="halfBtn" onclick="getNumber('0')">0</button></td>
+        <td bgcolor="whitesmoke" colspan="2"><button class="halfBtn" onclick="getResult()">=</button></td>
+    </tr>
+
+    </table>
+    
+</body>
+<script src="app.js"></script>
+</html>

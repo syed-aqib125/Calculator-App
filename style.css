@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+table{
+    border: 2px solid gray;
+    margin: 0 auto;
+}
+.result{
+    background-color:#CDC8B1;
+    height: 30px;
+}
+.clearBtn{
+    width: 100%;
+}
+.btn{
+    width: 100%;
+}
+.halfBtn{
+    width:100%; 
+}
+/* button{
+    border-radius: 1px;
+} */
