@@ -1,6 +1,7 @@
 function getNumber(num){
     var result = document.getElementById("result")
     result.value += num;
+    result.style.textAlign = 'end'
 }
 
 function clearResult(){
@@ -16,4 +17,5 @@ function back(){
 function getResult(){
     var result = document.getElementById("result")
     result.value = eval(result.value)
+    
 }
